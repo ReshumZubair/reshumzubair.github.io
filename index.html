@@ -6,90 +6,49 @@
   <title>Reshum Zubair | Data Analyst Portfolio</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
-    body {
-      font-family: 'Inter', sans-serif;
-      background-color: #f9f9f9;
-      color: #333;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      text-align: center;
-      padding: 40px 20px;
-      background-color: #fff;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-    header p {
-      font-size: 1.2rem;
-      margin-top: 10px;
-    }
-    section {
-      max-width: 1000px;
-      margin: 40px auto;
-      padding: 20px;
-    }
-    h2 {
-      border-bottom: 2px solid #eee;
-      padding-bottom: 10px;
-    }
-    .project {
-      margin: 20px 0;
-      padding: 20px;
-      background-color: #fff;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    }
-    .project h3 {
-      margin-top: 0;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      background-color: #fff;
-      box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
-      margin-top: 40px;
-    }
-    a {
-      color: #0077b6;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
+    body { font-family: 'Inter', sans-serif; background-color: #f0f4f8; color: #333; margin: 0; padding: 0; }
+    header { text-align: center; padding: 50px 20px; background-color: #0077b6; color: #fff; }
+    header h1 { margin: 0; font-size: 3rem; }
+    header p { font-size: 1.2rem; margin-top: 10px; }
+    nav { display: flex; justify-content: center; background: #023e8a; padding: 10px; }
+    nav a { color: #fff; margin: 0 15px; text-decoration: none; font-weight: 600; }
+    nav a:hover { text-decoration: underline; }
+    section { max-width: 1100px; margin: 40px auto; padding: 20px; }
+    h2 { border-bottom: 2px solid #eee; padding-bottom: 10px; }
+    .project { margin: 20px 0; padding: 20px; background-color: #fff; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+    .project h3 { margin-top: 0; }
+    footer { text-align: center; padding: 20px; background-color: #0077b6; color: #fff; margin-top: 40px; }
+    a { color: #0077b6; text-decoration: none; }
+    a:hover { text-decoration: underline; }
   </style>
 </head>
 <body>
   <header>
     <h1>Reshum Zubair</h1>
-    <p>Data Analyst | Python, R, SQL | Tableau, Excel | Machine Learning & Forecasting</p>
+    <p>Data Analyst | Python, R, SQL, CQL, MQL | Tableau, Excel | Machine Learning & Forecasting</p>
   </header>
-  <section>
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <section id="about">
     <h2>About Me</h2>
     <p>I am a data analyst with experience in Python, R, SQL, CQL, and MQL, and a passion for transforming data into actionable insights through visualizations in Tableau, Excel, and PowerPoint. My expertise includes forecasting, machine learning, and data storytelling.</p>
   </section>
-  <section>
+  <section id="projects">
     <h2>Projects</h2>
     <div class="project">
       <h3>Credit Card Fraud Detection (Machine Learning)</h3>
       <p>Developed a machine learning model for detecting credit card fraud using Python, improving detection accuracy through iterative model enhancements.</p>
-      <a href="#">View Project</a>
+      <a href="https://github.com/ReshumZubair/reshumzubair.github.io/blob/main/BAIT_509_Final_Project_V2.ipynb" target="_blank">View Project Notebook</a>
+      <br>
+      <a href="https://github.com/ReshumZubair/reshumzubair.github.io/blob/main/Credit%20Card%20Project%20Proposal%20by%20Slidesgo.pptx" target="_blank">View Project Presentation</a>
     </div>
-    <div class="project">
-      <h3>Airbnb Vancouver Analysis (Tableau)</h3>
-      <p>Designed an interactive Tableau dashboard showcasing key metrics for Airbnb properties, highlighting the most profitable locations in Vancouver.</p>
-      <a href="https://public.tableau.com/app/profile/reshum.zubair/viz/AirbnbVancouver_17302377572020/Dashboard1">View Project</a>
-    </div>
-    <div class="project">
-      <h3>Forecasting Sales with Time Series Analysis (R)</h3>
-      <p>Implemented time series forecasting models using R to predict sales trends and optimize inventory management.</p>
-      <a href="#">View Project</a>
-    </div>
+    <!-- Add more projects here -->
   </section>
-  <section>
+  <section id="skills">
     <h2>Skills</h2>
     <ul>
       <li>Programming: Python, R, SQL, CQL, MQL</li>
@@ -97,8 +56,13 @@
       <li>Machine Learning, Forecasting, Data Cleaning</li>
     </ul>
   </section>
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Contact me at <a href="mailto:reshumzubair@example.com">reshumzubair@example.com</a> or connect on <a href="https://www.linkedin.com/in/reshumzubair" target="_blank">LinkedIn</a>.</p>
+  </section>
   <footer>
-    <p>Contact: <a href="mailto:reshumzubair@example.com">reshumzubair@example.com</a> | <a href="https://www.linkedin.com/in/reshumzubair">LinkedIn</a></p>
+    <p>&copy; 2025 Reshum Zubair. All Rights Reserved.</p>
   </footer>
 </body>
 </html>
+
