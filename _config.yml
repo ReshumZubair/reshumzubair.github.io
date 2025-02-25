@@ -1,0 +1,25 @@
+title: Reshum Zubair
+logo: /assets/img/profile_picture.png
+description: >-
+  Data Analyst & Business Analytics Professional | Python, SQL, Tableau, Power BI |
+  Specializing in Data Visualization, Machine Learning, and Forecasting.
+show_downloads: true
+theme: jekyll-theme-minimal
+
+
+# Social Media Links
+social_links:
+  linkedin: https://www.linkedin.com/in/reshumzubairubc/
+  github: https://github.com/reshumzubair
+  email: zreshum@gmail.com
+
+# SEO & Metadata
+author: Reshum Zubair
+url: "https://reshumzubair.github.io"
+baseurl: ""
+
+# Plugins (Optional for additional features)
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
